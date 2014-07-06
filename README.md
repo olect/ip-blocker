@@ -14,8 +14,8 @@ Setting up
 
 Enter terminal and type (or copy/paste)
 
-	git clone https://github.com/olect/ip-blocker.git /tmp/ip-blocker.sh
-	cp /tmp/ip-blocker.sh /usr/bin/ip-blocker
+	git clone https://github.com/olect/ip-blocker.git /tmp/ip-blocker
+	cp /tmp/ip-blocker/ip-blocker.sh /usr/bin/ip-blocker
 	chmod a+x /usr/bin/ip-blocker
 	rm -Rf /tmp/ip-blocker
 
@@ -23,6 +23,8 @@ Make sure you have `sudo` rights
 
 And you are ready to go
 
+While in terminal, type `ip-blocker` and you should get:
 
+	* Usage: /usr/bin/ip-blocker {block|unblock|list|update}
 
 
