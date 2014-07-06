@@ -25,6 +25,24 @@ And you are ready to go
 
 While in terminal, type `ip-blocker` and you should get:
 
-	* Usage: /usr/bin/ip-blocker {block|unblock|list|update}
+	* Usage: /usr/bin/ip-blocker {block|unblock|list}
 
+Blocking
+--------
 
+	$ ip-blocker block 127.0.0.1
+
+Not a good idea btw, blocking all incoming from your loopback-interface :-p
+
+Unblocking
+----------
+
+	$ ip-blocker unblock 127.0.0.1
+
+Thus allowing incoming on all ports from `127.0.0.1`
+
+OR
+
+	$ ip-blocker unblock 2
+
+Thus removing rule number 2, see `ip-blocker list` for rulenumbers
