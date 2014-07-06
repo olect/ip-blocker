@@ -2,3 +2,27 @@ ip-blocker
 ==========
 
 Simple IPTables wrapper - Makes block/unblock tasks easier
+
+Working with IPTables can sometimes become a pain when you just want to perform a simple task like blocking an IP (ex. an attacker)
+
+I hate writing a lot in my *NIX terminal when performing sysadm task that should be simple.
+
+Be warned! This script is just for block, unblock and listing your blocked ip's. 
+
+Setting up
+==========
+
+Enter terminal and type (or copy/paste)
+
+	git clone https://github.com/olect/ip-blocker.git /tmp/ip-blocker.sh
+	cp /tmp/ip-blocker.sh /usr/bin/ip-blocker
+	chmod a+x /usr/bin/ip-blocker
+	rm -Rf /tmp/ip-blocker
+
+Make sure you have `sudo` rights
+
+And you are ready to go
+
+
+
+
